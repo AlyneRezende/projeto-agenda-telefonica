@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(255, 235, 205, 0.778);
+    padding-top: 130px;
+}
+
+header {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(184, 110, 0);
+    margin: 0px 50px 50px 50px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 950px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+form {
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    margin: 0px 60px 60px 60px;
+    justify-content: space-between;
+}
+
+form input {
+    font-size: 20px;
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid rgb(255, 198, 112);
+    color: rgb(184, 110, 0);
+}
+
+button {
+    font-size: 16px;
+    padding: 8px;
+    cursor: pointer;
+    border: 1px solid rgb(255, 198, 112);
+    background-color: rgb(255, 222, 173);
+    color: rgb(159, 96, 0);
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+}
+
+thead tr {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(184, 110, 0);
+    width: 100%;
+}
+
+table th {
+    padding: 15px;
+    border-bottom: 2px solid rgba(184, 110, 0, 0.2);
+}
+
+#contatos-adicionados {
+    color: rgba(184, 110, 0, 0.812);
+}
+table th#foot {
+    border: none;
+}
