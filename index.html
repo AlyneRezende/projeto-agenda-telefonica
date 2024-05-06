@@ -16,11 +16,13 @@
             <h1>Agenda Telefônica</h1>
         </header>
         <body>
-            <form action="." id="form-contatos">
-                <input type="text" name="contato" id="contato" placeholder="Nome" required>
-                <input type="tel" name="numero" id="numero" min="10" max="15" placeholder="Telefone" required>
-                <button id="botao">Adicionar contato</button>
-            </form>
+            <div class="form-adicionar">
+                <form action="#" id="form-contatos">
+                    <input type="text" name="contato" id="contato" placeholder="Nome" required>
+                    <input type="tel" name="numero" id="numero" placeholder="(xx) xxxxx-xxxx" pattern="^\(\d{2}\) \d{4,5}-\d{4}$" required>
+                    <button id="botao">Adicionar contato</button>
+                </form>
+            </div>
             <table cellspacing = '0'>
                 <thead>
                     <tr>
@@ -29,9 +31,9 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <th id="contatos-adicionados">----</th>
-                        <th id="contatos-adicionados">----</th>
+                    <tr id="contatos-adicionados">
+                        <th>----</th>
+                        <th>----</th>
                     </tr>
                 </tbody>
                 <tfoot>

@@ -28,7 +28,7 @@ header {
 
 form {
     display: flex;
-    max-width: 800px;
+    max-width: 750px;
     width: 100%;
     margin: 0px 60px 60px 60px;
     justify-content: space-between;
@@ -69,9 +69,13 @@ table th {
     border-bottom: 2px solid rgba(184, 110, 0, 0.2);
 }
 
-#contatos-adicionados {
-    color: rgba(184, 110, 0, 0.812);
+#contatos-adicionados,
+#contatos-adicionados2 {
+    color: rgba(146, 146, 146, 0.982);
+    font-weight: normal;
 }
+
 table th#foot {
     border: none;
 }
+
